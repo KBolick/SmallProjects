@@ -1,0 +1,13 @@
+Authors:
+	Kevin Bolick
+	Bruce Bolick
+
+This is a Mastermind game that uses a constraint solver to guess a secret code.
+It can also be played with a human player.
+There are a number of different pegs and a number of different colors that need
+to be guessed in a number of turns in order to win. When a guess is made, the
+guesser recieves a red point for each guessed peg with the right color and right
+position, and a white point for each guessed peg with the right color and wrong
+position.
+
+This game requires the z3.rkt constraint solver to run.
